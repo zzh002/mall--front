@@ -34,7 +34,7 @@
     <div class="search">
       <div class="search-left">
         <div class="left-blank"></div>
-        <div class="left-descript">小猫商城</div>
+        <div class="left-descript">M商城</div>
       </div>
       <div class="search-input">
         <input class="input"
