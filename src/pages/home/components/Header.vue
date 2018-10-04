@@ -37,8 +37,12 @@
         <div class="left-descript">小猫商城</div>
       </div>
       <div class="search-input">
-        <input class="input" placeholder="请输入商品名称"/>
-        <div class="button">搜索</div>
+        <input class="input"
+        placeholder="请输入商品名称"
+        v-model="value"/>
+        <router-link to="/search/">
+          <div class="button">搜索</div>
+        </router-link>
       </div>
       <div class="search-right"></div>
     </div>
@@ -47,7 +51,12 @@
 
 <script>
 export default {
-  name: 'HomeHeader'
+  name: 'HomeHeader',
+  data () {
+    return {
+      value: ''
+    }
+  }
 }
 </script>
 
