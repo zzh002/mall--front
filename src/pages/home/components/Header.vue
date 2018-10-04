@@ -79,10 +79,10 @@ export default {
           flex: 1
           .input-login
             width: .72rem
-            color: #FF7043
+            color: #B71C1C
           .input-register
             width: .72rem
-            color: #FF7043
+            color: #B71C1C
         .input
           display: flex
           width: 5.7rem
@@ -90,19 +90,19 @@ export default {
           text-align: center
           .cart
             width: 1.425rem
-            color: #FF7043
+            color: #B71C1C
             .back-icon
               text-align: center
               font-size: .25rem
           .order
             width: 1.425rem
-            color: #FF7043
+            color: #B71C1C
           .inform
             width: 1.425rem
-            color: #FF7043
+            color: #B71C1C
           .connect
             width: 1.425rem
-            color: #FF7043
+            color: #B71C1C
       .header-right
         width: 4.4rem
         float: right
